@@ -1,0 +1,11 @@
+<h1>Course list</h1>
+
+<ul>
+
+{% for course in courses %}
+<li>
+<a href="/course/{{course.slug}}">{{ course.title.rendered }}</a>
+</li>
+{% endfor %}
+
+</ul>
