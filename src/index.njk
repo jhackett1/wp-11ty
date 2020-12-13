@@ -2,9 +2,9 @@
 
 <ul>
 
-{% for course in courses %}
+{% for post in posts %}
 <li>
-<a href="/course/{{course.slug}}">{{ course.title.rendered }}</a>
+<a href="/post/{{post.slug}}">{{ post.title.rendered }}</a>
 </li>
 {% endfor %}
 
