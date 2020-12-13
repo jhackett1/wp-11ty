@@ -21,7 +21,7 @@ npm start
 
 It should be on `localhost:8080`
 
-Alternatively **[check it out on CodeSandbox right now](https://codesandbox.io/s/github/jhackett1/wp-11ty)**.
+Alternatively **[check it out on CodeSandbox right now](https://githubbox.com/jhackett1/wp-11ty)**.
 
 ## Running it on the web
 
