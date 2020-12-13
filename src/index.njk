@@ -4,7 +4,7 @@
 
 {% for post in posts %}
 <li>
-<a href="/post/{{post.slug}}">{{ post.title.rendered }}</a>
+<a href="/post/{{post.slug}}">{{ post.title.rendered | safe }}</a>
 </li>
 {% endfor %}
 
