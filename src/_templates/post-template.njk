@@ -8,8 +8,8 @@ permalink: "post/{{ post.slug }}/"
 
 <a href="/">< Go back</a>
 
-<h1>{{ post.title.rendered }}</h1>
+<h1>{{ post.title.rendered | safe }}</h1>
 
 <em>Course ID: {{ post.id }}</em>
 
-{{ post.content.rendered }}
+{{ post.content.rendered | safe }}
